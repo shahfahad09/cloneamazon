@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+
+}
+body{
+    background-color: rgb(253, 235, 120);
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbarlogo{
+    height: 55px;
+    width: 110px;
+    text-align: center;
+    align-items: center;
+   
+
+}
+.logo{
+    background-image: url("amamzon.logo.webp");
+    background-size: cover;
+    height: 46px;
+    width: 110px;
+    margin-top: 7px;
+
+}
+.border{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    
+
+}
+.border:hover{
+    border: 1px solid white;
+}
+.navlocation{
+    height:50px ;
+margin-top: 0PX;
+}
+.location-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 18px;
+    /* margin-top: -30px; */
+
+}
+.location-seacond{
+    
+    font-size: 1rem;
+    margin-left: 15px;
+    text-align: end;
+    padding-left: 10px;
+
+}
+
+.icon{
+    position: relative;
+
+    padding-left: -10px;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;    
+}
+.fa-solid {
+    position: relative;
+    right: 5px;
+    bottom: 3px;
+    
+}
+.navlocation{
+    margin-top: 7px;
+    /* height:150px ; */
+    width: 80px;
+}
+.nav-search{
+    background-color: rgb(255, 213, 0);
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 800px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.nav-search:hover{
+    border: 3px solid rgb(246, 160, 2);
+}
+.search-item{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+
+}
+.search{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: rgb(255, 175, 3);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: black;
+}
+
+.nav-box{
+    height: 57px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    border-right: 10px;
+}
+
+.nav-boxa{
+    height:2rem;
+    width: 3rem;
+    text-align: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+
+}
+.nav-flag{
+    background-image: url("india.webp");
+    background-size: cover;
+    height: 1.5rem;
+    width: 2rem;
+    display: flex;
+
+}
+/* .nav-letter{
+    color: #fff;
+    height:2rem ;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+} */
+.nav-icon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+   
+}
+#moosa{
+position: relative;
+bottom: 70%;
+left: 25px;
+font-weight: 600;
+}
+.select-language{
+    min-width: 1px;
+    display: flex;
+    justify-content: center;
+    height: 0.91rem;
+    width: 0.90rem;
+    margin-top: 35px;
+   
+}
+.account{
+    /* margin-right: 15rem; */
+    margin-top: 0px;
+    padding-top: 3px;
+    height: 57px;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+}
+.Hellow{
+    height: 40px;
+    font-size: 0.6rem;
+}
+.List{
+    height: 40px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.return{
+    padding-top: 3px;
+    margin-left: 30px;
+    margin-top: 0px;
+    height: 57px;
+    justify-content: center;
+    position: relative;
+    right: 20px;
+
+}
+.nav-cart i{
+  font-size: 38px;
+  margin-top: 9px;
+}
+.nav-cart{
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+.seacondpart{
+    height: 40px;
+    background-color:#2D2D38;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+.all-panel{
+    /* margin-left: 50px; */
+    position: relative;
+    right: 65px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+   
+}
+.panel-opt a{
+    margin-left: 30px;
+    margin-left: 10px;
+    display: inline;
+    text-decoration: none;
+    position: relative;
+    
+   
+}
+.panel-opt{
+    
+    width: 80%;
+    font-size: 0.90rem;
+    
+}
+.link{
+    
+    margin-left: 0px;
+    position:relative;
+    right: 140px;
+    padding-left: 0px;
+    width: 119%;
+    
+    
+}
+
+/* seaction area */
+ .seaction-part{
+    background-image: url("pic1.jpg");
+    /* background-color: red; */
+    height:400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+   
+    margin-bottom: 30px;
+}
+ .msg{
+    color: rgb(12, 13, 13);
+    background-color: white;
+    height: 30px;
+    width: 85%;
+    margin-top: 350px;
+    padding-inline-start: 80px;
+
+} 
+#text{
+    position: relative;
+    left: 100px;
+}
+
+a{
+    color: blue;
+} 
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+   
+
+}
+.box{
+    border: 2px solid black;
+    height: 450px;
+    width :23% ;
+    background-color:#ffff;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  
+}
+
+
+.box1-img{
+    height: 405px;
+    width: 21rem;
+    background-color: rgb(158, 158, 1);
+    position: relative;
+    border-radius: 10px;
+    background-image: cover;
+   margin-left: 5px;
+    
+}
+.box2{
+    height: 450px;
+    width: 400px;
+  
+}
+.box2-img{
+    background-image: url("ip.webp");
+    height: 400px;
+    width: 365px ;
+    position: relative;
+    /* left: 30px; */
+    border-radius: 10px;
+    background-image: cover;
+   margin-left: 15px;
+   margin-top: 5px;
+   
+    
+}
+.box3{
+    height: 450px;
+    width: 350px;
+    /* background-color: rgb(137, 217, 253); */
+    color: black;
+}
+.box3-img{
+    background-image: url("saree.webp");
+    height: 400px;
+    width: 70%;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    left: 80px;
+}
+.box4{
+    height: 450px;
+    width: 280px;
+}
+.box4-img{
+    background-image: url("book.jpg");
+    height: 385px;
+    width: 260px;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.secondshop{
+    display: flex;
+    justify-content: space-evenly;
+} 
+.box5{
+    color:black;
+    height: 510px;
+    width: 800px;
+    position: relative;
+    right: -5px;
+    
+ 
+    top: 10px;
+    /* background-color: #007185; */
+    
+
+}
+#primevideo{
+    position: relative;
+    bottom: 30px;
+    right: 200px;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: middle;
+   
+}
+.prime{
+    text-decoration: underline;
+    color: #007185;
+}
+.box5-img{
+    background-image: url("miller.jpg");
+    height: 440px;
+    width: 790px;
+    margin-left: 5px;
+    margin-right: 10px;
+    position: relative;
+    border-radius: 10px;
+    background-image: cover;
+    margin-top: 3px;
+}
+.video-text{
+    position: relative;
+    bottom: 15px;
+    right: 100px;
+}
+/* .box6{
+    position: relative;
+    right: 955px;
+    top: 5px;
+    width: 460px;
+    height: 420px;
+   
+   
+}
+.box6-img{
+    background-image: url("elect.webp");
+    height: 360px;
+    width : 440px;
+    border-radius: 10px;
+    margin-top: 6px;
+    margin-left: 5px;
+    /* margin-right: 50px; */
+
+/* }
+.anchortextbox6{
+    position: relative;
+    right: 120px;
+   top: 8px;
+   
+   
+} */ 
+.box6{
+    height: 510px;
+    width: 350px;
+    /* background-color: rgb(137, 217, 253); */
+    color: black;
+    position: relative;
+    left: 298px;
+    top: 5px;
+}
+.box6-img{
+    background-image: url("elect.webp");
+    height: 465px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    left: 20px;
+}
+.elect-text{
+    position: relative;
+    right: 100px;
+}
+.box7{
+    height: 510px;
+    width: 280px;
+    position: relative;
+    right: 380px;
+    margin-top: 10px;
+}
+.box7-img{
+    background-image: url("vim.webp");
+    height: 470px;
+    width: 180px;
+    margin-left: 60px;
+   
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.vimtext{
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last-footer{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 5px;
+}
+.last-footer2{
+    height: 400px;
+    color: white;
+    background-color:#222f3d;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+ul a{
+    display: block;
+    font-size: 0.90rem;
+    margin-top: 20px;
+    color: white;
+  
+   
+   
+}
+.bottomborder{
+  
+    border-bottom:  2px solid transparent;
+    
+}
+.bottomborder:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+} 
+/* .noborder{
+    border-bottom: none;
+}
+.noborder :hover{
+    border-bottom: none;
+} */
+.last-footer2 p{
+    margin-top: 50px;
+    font-size: 20px;
+    
+}
+.last-footer3{
+    height: 200px;
+    width: 100;
+    background-color:#222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    
+    
+}
+.last-footer3img{
+    background-image: url("amamzon.logo.webp");
+    background-size: cover;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 100px;
+    margin-left: 180px;
+    /* mix-blend-mode: multiply; */
+    background-color:white;
+    position: relative;
+    
+}
+.selectlanguageinner{
+    background-color:transparent;
+    height: 30px;
+    width: 120px;
+    position: relative;
+    right: 200px;
+    bottom: 57px;
+    padding-left: 20px;
+    color:#cccccc;
+  
+}
+
+.language{
+    position: relative;
+   
+}
+.langlogo {
+    /* background-color: rgb(255, 255, 255); */
+    /* color: #007185; */
+    position: relative;
+     bottom: 30px; 
+     right: 190px; 
+    
+
+ }
+.selectlanguage{
+    margin-left: 300px;
+    bottom: 80px;
+} 
+.last-footer4{
+    background-color: #222f3d;
+   
+  
+    display: flex;
+    justify-content:flex-start;
+ 
+}
+.last-footer4 a {
+    color: white;
+    height: 0.75rem;
+    padding-left: 20px;
+    position: relative;
+    bottom: 110px;
+    font-size: 0.85rem;
+}
+.last-footer4-anchortag{
+   margin-left: 100px;
+  
+
+
+}
+
+
+.last-footer4-anchortag  .border{
+    border: 2px solid transparent;
+}
+.last-footer4-anchortag  :hover{
+    cursor: pointer;
+    
+    text-decoration: underline;
+}
+table{
+   background-color: #121a12;
+    display: flex;
+    justify-content: space-evenly;
+}
+tbody{
+    background-color: #121a12;
+    display: flex;
+    justify-content: space-evenly;
+}
+tbody > tr {
+    display: flex;
+    justify-content: space-evenly;
+}
